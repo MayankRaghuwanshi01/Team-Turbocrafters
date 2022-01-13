@@ -1,0 +1,591 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	background-color: #000000;
+}
+
+@font-face {
+	font-family: "Strike Fighter Laser Italic";
+	font-style: italic;
+	font-weight: 400;
+	src: url(./Font/strikefighterlaserital.woff) format ("webopenfontformat");
+	src: url(./Font/strikefighterlaserital.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Strike Fighter Condensed";
+	font-weight: 400;
+	src: url(./Font/strikefightercond.woff) format("webopenfontformat");
+	src: url(./Font/strikefightercond.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Strike Fighter Condensed Italic";
+	font-weight: 400;
+	src: url(./Font/strikefightercondital.woff) format("webopenfontformat");
+	src: url(./Font/strikefightercondital.ttf) format("truetype");
+}
+
+
+/* Navbar CSS Below here */
+
+.navbar {
+	width: 100%;
+	max-height: 80px;
+}
+header {
+	display: flex;
+	background-color: #000000;
+	align-items: center;
+}
+.navlogo {
+	height: 60px;
+	margin: 10px;
+	margin-left: 25px;
+}
+.nav__links {
+	list-style: none;
+	display: flex;
+}
+.nav__links a {
+	font-family: "BankGothic";
+	color: #ffffff;
+	text-decoration: none;
+}
+.nav__links li {
+	padding: 0px 20px;
+}
+.nav__links li a {
+	transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+	color: #000000;
+	padding: 5px 15px;
+	background-color: #ffffff;
+	border: none;
+}
+  
+/* Landing Section CSS Below here */
+
+.landing {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+
+	background-image: url(images/parallax.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+.racethelimits {
+	font-family: 'Strike Fighter Laser Italic';
+	font-style: italic;
+	font-weight: normal;
+	font-size: 130px;
+	margin-left: 320px;
+	margin-top: 250px;
+	
+	color: #FFFFFF;
+	text-shadow: 15px 15px 30px rgba(0, 0, 0, 0.4);
+
+}
+
+.about {
+	position: absolute;
+	margin-top: 100px;
+	left: 0;
+	width: 775px;
+	height: 300px;
+	background: rgba(0, 0, 0, 0.65);
+}
+.aboutus {
+	font-family: "Strike Fighter Condensed Italic";
+
+	color: #fff;
+	font-size: 72px;
+	padding: 1.5rem 0rem 0.5rem 3rem;
+	letter-spacing: 3px;
+}
+.aboutdes {
+	color: #fff;
+	font-size: 25px;
+	padding: 0rem 1rem 0rem 3rem;
+	letter-spacing: 1px;
+	width: 697px;
+	height: 172px;
+	
+	font-family: "BankGothic";
+	font-style: normal;
+	
+}
+
+
+/* merch Section CSS Below here */
+
+.merch {
+	color: #fff;
+	margin-top: 1180px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.merchzone{ 
+	color: #fff;
+	width: 1920px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: absolute;
+	width: 816px;
+	height: 75px;
+	left: 551px;
+	top: 80+0px;
+
+	font-family: 'Strike Fighter Condensed';
+	font-size: 72px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.merchType {
+	list-style: none;
+	display: flex;
+}
+
+.merchposter {
+	position: absolute;
+	width: 1920px;
+	height: 585px;
+	top: 1250px;
+	left: 0;
+	background-image: url(images/merch\ poster\ for\ site.png);
+}
+.merchbutton {
+	height: 38px;
+	left: 800px;
+	top: 450px;
+	letter-spacing: 0;
+	position: absolute;
+}
+.merchbutton a{
+	text-decoration: none;
+	font-family: 'Strike Fighter Condensed';
+	color: #000000;
+	font-size: 36px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	background-color: #C8C8C8;
+	padding: 15px 30px;
+}
+
+
+/* Experience Zone CSS Below here */
+
+.ares-experience-zone {
+	height: 836px;
+	position: absolute;
+	top: 2000px;
+	width: 1922px;
+}
+
+.expzone {
+	color: #fff;
+	width: 1920px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: absolute;
+	width: 816px;
+	height: 75px;
+	left: 551px;
+
+	font-family: 'Strike Fighter Condensed';
+	font-size: 72px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.line1 {
+	left: 60px;
+	letter-spacing: 0;
+	position: absolute;
+	text-align: center;
+	top: 100px;
+	width: 550px;
+	
+	font-family: 'Strike Fighter Condensed Italic';
+	font-style: italic;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 50px;
+	text-align: center;
+	
+	color: #FFFFFF;
+}
+.line2 {
+	left: 84px;
+	letter-spacing: 0;
+	position: absolute;
+	text-align: center;
+	top: 270px;
+	width: 534px;
+
+	font-family: 'BankGothic';
+	font-size: 36px;
+	line-height: 37px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.explorebutton {
+	height: 38px;
+	left: 157px;
+	top: 554px;
+	letter-spacing: 0;
+	position: absolute;
+	text-align: center;
+}
+.explorebutton a{
+	text-decoration: none;
+	font-family: 'Strike Fighter Condensed';
+	color: #000000;
+	font-size: 36px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	background-color: #C8C8C8;
+	padding: 15px 30px;
+}
+
+.overlap-group1 {
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 711px;
+	left: 1218px;
+	position: relative;
+	top: 52px;
+	width: 702px;
+	text-align: center;
+}
+.overlap-group2 {
+	background-image: url(images/track.png);
+	background-position: 50% 50%;
+	background-size: cover;
+	height: 1238px;
+	position: relative;
+	top: -52px;
+}
+.frame-2 {
+	position: relative;
+	height: 711px;
+	left: 0;
+	overflow: hidden;
+	top: 120px;
+	width: 1920px;
+}
+  
+.valign-text-middle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+  
+/* Community Section CSS Below here */
+
+.ares-community {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	min-height: 1010px;
+	width: 1922px;
+	margin-top: 2922px;
+}
+.title {
+	letter-spacing: 0;
+	margin-right: 3.0px;
+	min-height: 67px;
+	min-width: 837px;
+	text-align: center;
+}
+
+.communityheading{
+	position: absolute;
+	width: 837px;
+	height: 67px;
+	left: 541px;
+	top: 3050px;
+
+	font-family: 'Strike Fighter Condensed';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 67px;
+
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.ares-community-1 {
+	position: absolute;
+	margin-top:-1000px;
+	display: flex;
+	height: 893px;
+	overflow: hidden;
+	width: 1920px;
+}
+  
+.community-overlap-group2 {
+	height: 973px;
+	margin-left: -20px;
+	margin-top: -40px;
+	position: relative;
+	width: 1944px;
+}
+.dsc_2810-1 {
+	position: absolute;
+	width: 693px;
+	height: 893px;
+	left: 1227px;
+	top: 0px;
+}
+.grey-1 {
+	position: absolute;
+	width: 627px;
+	height: 893px;
+	left: 600px;
+	top: 0px;
+
+	filter: drop-shadow(20px 0px 30px rgba(0, 0, 0, 0.6));
+}
+.yellow-1 {
+	position: absolute;
+	width: 600px;
+	height: 483px;
+	left: 0px;
+	top: 0px;
+
+	filter: drop-shadow(20px 0px 30px rgba(0, 0, 0, 0.6));
+}
+.maroon-1 {
+	position: absolute;
+	width: 720px;
+	height: 410px;
+	left: 0px;
+	top: 483px;
+	
+	filter: drop-shadow(20px -20px 30px rgba(0, 0, 0, 0.6));
+}
+
+
+.group-3 {
+	align-items: flex-end;
+	display: flex;
+	flex-direction: column;
+	left: 980px;
+	min-height: 822px;
+	position: absolute;
+	top: 40px;
+	width: 964px;
+}
+
+.community-overlap-group1 {
+	align-items: flex-end;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;
+	flex-direction: column;
+	margin-right: 4px;
+	min-height: 323px;
+	padding: 42px 34px;
+	width: 960px;
+}
+.communityline1 {
+	align-self: center;
+	
+	font-family: 'Strike Fighter Condensed Italic';
+	font-size: 55px;
+	line-height: 57px;
+	text-align: center;
+	
+	color: #FFFFFF;
+}
+.communityline2 {
+	align-self: center;
+	
+	margin-top: 50px;
+	font-family: 'BankGothic';
+	font-size: 35px;
+	line-height: 31px;
+	text-align: center;
+	
+	color: #FFFFFF;
+}
+  
+.community-overlap-group {
+	display: flex;
+	height: 77px;
+	justify-content: flex-end;
+	text-decoration: none;
+	margin-right: 118px;
+	margin-top: 422px;
+	min-width: 484px;
+	padding: 19px;
+}
+.communitybutton a{
+	text-decoration: none;
+	color: #000;
+}
+.communitybutton {
+	height: 38px;
+	left: 350px;
+	letter-spacing: 0;
+	position: absolute;
+	bottom: 150px;
+
+	text-decoration: none;
+	font-family: 'Strike Fighter Condensed';
+	color: #000;
+	font-size: 36px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	background-color: #C8C8C8;
+	padding: 10px 20px;
+  }
+  
+  .valign-text-middle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  }
+/* App Section CSS Below here */
+
+.app {
+	color: #fff;
+	width: 1920px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.app p {
+	color: #FFFFFF;
+
+	font-family: 'Strike Fighter Condensed';
+	font-size: 64px;
+}
+
+.appposter {
+	position: absolute;
+	width: 1920px;
+	height: 589px;
+	margin-top: 700px;
+	background-image: url(images/app\ poster\ for\ site.png);
+}
+
+/*footer*/
+.footer {
+	margin-top:700px;
+	width: 1920px;
+	height: 600px;
+	background: #2D2D2D;
+}
+
+.footlogo1 {
+	position: absolute;
+	margin-top:69px;
+	margin-left:69px;
+}
+.footlogo2{
+	position: absolute;
+	margin-left: 219px;
+	margin-top: 146px;
+}
+.footaddress {
+	position: absolute;
+	margin-left: 251px;
+	margin-top: 265px;
+
+	font-family: "BankGothic";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 37px;
+
+	color: #FFFFFF;
+}
+
+.footerbutton {
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 80px;
+	width: 400px;
+	height: 45px;
+	
+	list-style: none;
+	text-decoration: none;
+
+	font-family: "BankGothic";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	text-align: center;
+}
+.footerbutton li{
+	margin: 30px 10px;
+}
+.footerbutton a{
+	color: #ffffff;
+	text-decoration: none;
+
+	padding: 5px 10px;
+	background: #4A4A4A;
+	border-radius: 15px;
+}
+.footerbutton li a {
+	transition: all 0.3s ease 0s;
+}
+.footerbutton li a:hover{
+	color: #000000;
+	padding: 10px 25px;
+	background: #cccccc;
+	border-radius: 15px;
+	border: none;
+}
+
+.copyright {
+	position: absolute;
+	width: 521px;
+	height: 31px;
+	margin-left: 80px;
+	margin-top: 510px;
+	
+	font-family: 'BankGothic';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 31px;
+	
+	color: #999999;
+}
+
+.social {
+	position: absolute;
+	width: 46.88px;
+	height: 445.71px;
+	margin-left: 1810px;
+	margin-top: 77px;
+}

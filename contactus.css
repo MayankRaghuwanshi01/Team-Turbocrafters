@@ -1,0 +1,357 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	background-color: #000000;
+}
+
+@font-face {
+	font-family: "Strike Fighter Italic";
+	font-style: italic;
+	font-weight: 400;
+	src: url(./Font/strikefighterital.ttf) format ("webopenfontformat");
+	src: url(./Font/strikefighterital.ttf) format("truetype");
+}
+
+
+/* Navbar CSS Below here */
+
+.navbar {
+	width: 100%;
+	max-height: 80px;
+}
+header {
+	display: flex;
+	background-color: #000000;
+	align-items: center;
+}
+.navlogo {
+	height: 60px;
+	margin: 10px;
+	margin-left: 25px;
+}
+.nav__links {
+	list-style: none;
+	display: flex;
+}
+.nav__links a, .overlay__content a {
+	font-family: "BankGothic";
+	color: #ffffff;
+	text-decoration: none;
+}
+.nav__links li {
+	padding: 0px 20px;
+}
+.nav__links li a {
+	transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+	color: #000000;
+	padding: 5px 15px;
+	background-color: #ffffff;
+	border: none;
+}
+  
+/* Landing Section CSS Below here */
+
+.heading {
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+    font-family: 'Strike Fighter Italic';
+    font-size: 96px;
+}
+
+.fname {
+    font-family: "BankGothic";
+    color: #fff;
+    font-size: 36px;
+
+    position: absolute;
+    margin-left: 172px;
+    margin-top: 150px;
+    width: 400px;
+    padding: 40px;
+}
+.fname input {
+    width: 700px;
+    height: 75px;
+    font-size: 32px;
+    font-family: "BankGothic";
+    
+    color: #fff;
+    background: #242424;
+    border: 3px solid #FFFFFF;
+
+    margin-top: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.lname {
+    font-family: "BankGothic";
+    color: #fff;
+    font-size: 36px;
+
+    position: absolute;
+    margin-left: 972px;
+    margin-top: 150px;
+    width: 400px;
+    padding: 40px;
+}
+.lname input {
+    width: 700px;
+    height: 75px;
+    font-size: 32px;
+    font-family: "BankGothic";
+    
+    color: #fff;
+    background: #242424;
+    border: 3px solid #FFFFFF;
+
+    margin-top: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.email {
+    font-family: "BankGothic";
+    color: #fff;
+    font-size: 36px;
+
+    position: absolute;
+    margin-left: 172px;
+    margin-top: 350px;
+    width: 400px;
+    padding: 40px;
+}
+.email input {
+    width: 1000px;
+    height: 75px;
+    font-size: 32px;
+    font-family: "BankGothic";
+    
+    color: #fff;
+    background: #242424;
+    border: 3px solid #FFFFFF;
+
+    margin-top: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.phonenumber {
+    font-family: "BankGothic";
+    color: #fff;
+    font-size: 36px;
+
+    position: absolute;
+    margin-left: 172px;
+    margin-top: 550px;
+    width: 400px;
+    padding: 40px;
+}
+.phonenumber input {
+    width: 1000px;
+    height: 75px;
+    font-size: 32px;
+    font-family: "BankGothic";
+    
+    color: #fff;
+    background: #242424;
+    border: 3px solid #FFFFFF;
+
+    margin-top: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.issue {
+    font-family: "BankGothic";
+    color: #fff;
+    font-size: 36px;
+
+    position: absolute;
+    margin-left: 172px;
+    margin-top: 750px;
+    width: 400px;
+    padding: 40px;
+}
+.issue input {
+    width: 1000px;
+    height: 75px;
+    font-size: 32px;
+    font-family: "BankGothic";
+    
+    color: #fff;
+    background: #242424;
+    border: 3px solid #FFFFFF;
+
+    margin-top: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.explain {
+    font-family: "BankGothic";
+    color: #fff;
+    font-size: 36px;
+
+    position: absolute;
+    margin-left: 172px;
+    margin-top: 950px;
+    padding: 40px;
+}
+.explain input {
+    width: 1500px;
+    height: 500px;
+    font-size: 32px;
+    font-family: "BankGothic";
+    
+    color: #fff;
+    background: #242424;
+    border: 3px solid #FFFFFF;
+
+    margin-top: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+
+.submitbutton a {
+    font-family: "BankGothic";
+    color: #000;
+    background-color: #fff;
+    font-size: 36px;
+    
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 1650px;
+    align-self: center;
+
+    padding:20px 20px;
+    text-decoration: none;
+}
+.submitbutton a{
+    transition: all 0.3s ease 0s;
+}
+.submitbutton a:hover {
+    font-family: "BankGothic";
+    color: #fff;
+    background-color: rgb(36, 36, 36);
+    border-color: #fff;
+    border-width: 5px;
+    font-size: 36px;
+    
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 1650px;
+    align-self: center;
+
+    padding:10px 25px;
+    text-decoration: none;
+}
+
+/*footer*/
+.footer {
+	width: 1920px;
+	height: 600px;
+    margin-top: 1750px;
+	background: #2D2D2D;
+}
+
+.footlogo1 {
+	position: absolute;
+	margin-top:69px;
+	margin-left:69px;
+}
+.footlogo2{
+	position: absolute;
+	margin-left: 219px;
+	margin-top: 146px;
+}
+.footaddress {
+	position: absolute;
+	margin-left: 251px;
+	margin-top: 265px;
+
+	font-family: "BankGothic";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 37px;
+
+	color: #FFFFFF;
+}
+
+.footerbutton {
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 80px;
+	width: 400px;
+	height: 45px;
+	
+	list-style: none;
+	text-decoration: none;
+
+	font-family: "BankGothic";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	text-align: center;
+}
+.footerbutton li{
+	margin: 30px 10px;
+}
+.footerbutton a{
+	color: #ffffff;
+	text-decoration: none;
+
+	padding: 5px 10px;
+	background: #4A4A4A;
+	border-radius: 15px;
+}
+.footerbutton li a {
+	transition: all 0.3s ease 0s;
+}
+.footerbutton li a:hover{
+	color: #000000;
+	padding: 10px 25px;
+	background: #cccccc;
+	border-radius: 15px;
+	border: none;
+}
+
+.copyright {
+	position: absolute;
+	width: 521px;
+	height: 31px;
+	margin-left: 80px;
+	margin-top: 510px;
+	
+	font-family: 'BankGothic';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 31px;
+	
+	color: #999999;
+}
+
+.social {
+	position: absolute;
+	width: 46.88px;
+	height: 445.71px;
+	margin-left: 1810px;
+	margin-top: 77px;
+}
